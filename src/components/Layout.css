@@ -17,6 +17,6 @@
   font-family: "Kefa PressS";
   display: flex;
   background: linear-gradient(135deg, #00c3b8 2%, #ffc3b8);
-  height: 100vh;
   flex-direction: column;
+  height: 100%;
 }

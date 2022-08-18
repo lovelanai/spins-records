@@ -1,14 +1,33 @@
 import "./Header.css";
-import logo from "../assets/logo.svg";
+
+import logo2 from "../assets/logo2.svg";
+import { useState } from "react";
 export default function Header() {
+  const [navbar, setNavbar] = useState();
+
+  const geet = () => {
+    if (!navbar) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
   return (
     <div className="header">
       <div className="logo-container">
-        <img src={logo}></img>
+        <button onClick={geet}>hej</button>
+        <img alt="logo" src={logo2}></img>
       </div>
-      <h1>Vinyl</h1>
-      <h1>Butik</h1>
-      <h1>Kontakt</h1>
+      {navbar ? (
+        <div className="navbar">
+          <p>Vinyl</p>
+          <p>Butik</p>
+          <p>Kontakt</p>
+        </div>
+      ) : (
+        <div></div>
+      )}
     </div>
   );
 }
