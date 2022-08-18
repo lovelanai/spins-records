@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 export default function Header() {
   const [navbar, setNavbar] = useState();
 
-  const height = window.innerHeight - 280;
+  const height = window.innerHeight - 600;
 
   const listenScrollEvent = () => {
     if (window.scrollY < height) {
@@ -24,10 +24,6 @@ export default function Header() {
   });
 
   const [showScroll, setShowScroll] = useState();
-
-  const hideScrollArrow = () => {
-    setShowScroll(false);
-  };
 
   const showNav = () => {
     if (!navbar) {
@@ -56,7 +52,8 @@ export default function Header() {
               to="about"
               spy={true}
               smooth={true}
-              duration={200}
+              duration={300}
+              onClick={showNav}
             >
               <p>About</p>
             </Link>
@@ -67,7 +64,8 @@ export default function Header() {
               to="store"
               spy={true}
               smooth={true}
-              duration={200}
+              duration={300}
+              onClick={showNav}
             >
               <p>Store</p>
             </Link>
@@ -77,7 +75,8 @@ export default function Header() {
               to="contact"
               spy={true}
               smooth={true}
-              duration={200}
+              duration={300}
+              onClick={showNav}
             >
               <p>Contact</p>
             </Link>

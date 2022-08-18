@@ -1,7 +1,32 @@
 .about {
   height: 100vh;
-  padding-top: 8rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: cornflowerblue;
+}
+
+.about div {
+  background: red;
+  width: 60rem;
+  height: 100vh;
+  transform: skew(20deg);
+  background: red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.about div h1 {
+  transform: skew(-20deg);
+}
+
+.about div p {
+  transform: skew(-20deg);
+}
+
+.about div ul:first-child {
+  width: 26rem;
 }
