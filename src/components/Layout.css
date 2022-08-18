@@ -16,7 +16,7 @@
 .layout {
   font-family: "Kefa PressS";
   display: flex;
-  background: linear-gradient(135deg, #00c3b8 2%, #ffc3b8);
+  background: linear-gradient(135deg, #f3cb62 2%, #ffb8b8);
   flex-direction: column;
   height: 100%;
 }

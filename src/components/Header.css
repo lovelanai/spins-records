@@ -11,13 +11,27 @@
   z-index: 10;
 }
 
+.header img {
+  width: 20%;
+}
+
+.hamburger {
+  font-size: 2rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  color: #b93d00;
+}
+
 .logo-container {
   margin-top: 1rem;
   display: flex;
-  height: 8rem;
+  height: 7rem;
   width: 100%;
   z-index: 10;
   background-color: wheat;
+  position: relative;
+  justify-content: center;
 }
 
 .header .navbar {
@@ -26,9 +40,16 @@
   flex-direction: row;
   justify-content: space-evenly;
   font-size: 2rem;
-  animation: naveffect 0.2s ease-in-out;
-  background-color: white;
+  background-color: #b93d00;
   z-index: 4;
+}
+
+.show {
+  animation: naveffect 0.2s ease-in-out forwards;
+}
+
+.hide {
+  animation: reversenaveffect 0.2s ease-in-out forwards;
 }
 
 @keyframes naveffect {
@@ -38,10 +59,23 @@
   }
   100% {
     position: absolute;
-    top: 9rem;
+    top: 8rem;
+  }
+}
+
+@keyframes reversenaveffect {
+  0% {
+    top: 8rem;
+    position: absolute;
+  }
+  100% {
+    position: absolute;
+    top: 3rem;
   }
 }
 
 .header .navbar p {
-  margin: 0.5rem;
+  margin: 0.2rem;
+  font-size: 1.5rem;
+  color: #f3cb62;
 }

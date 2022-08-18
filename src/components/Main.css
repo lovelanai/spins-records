@@ -9,9 +9,20 @@
   background-image: url(../assets/jimi.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
   width: 100%;
   color: white;
+  animation: slideIn 0.8s ease-in forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0%;
+    background-position-x: -40rem;
+  }
+  100% {
+    opacity: 100%;
+    background-position-x: -5rem;
+  }
 }
 
 .main-text {
@@ -20,6 +31,7 @@
 
   align-items: flex-end;
   padding-right: 8rem;
+  margin-top: 3rem;
 }
 .main-text h1 {
   margin: 0;
