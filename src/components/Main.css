@@ -4,18 +4,18 @@
 }
 
 .main .left {
-  background-color: red;
+  background-image: url(../assets/jimi.png);
   width: 100%;
 }
 
 .main .right {
-  background-color: blue;
   width: 100%;
 }
 
 .main .right div {
   display: flex;
   flex-direction: column;
+  color: white;
 }
 
 .main .right div h1 {
