@@ -19,4 +19,5 @@
   background: linear-gradient(135deg, #f3cb62 2%, #ffb8b8);
   flex-direction: column;
   height: 100%;
+  position: relative;
 }

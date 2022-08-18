@@ -3,6 +3,7 @@
   flex-direction: row;
   height: calc(100vh - 8rem);
   padding-top: 8rem;
+  background: linear-gradient(135deg, #f3cb62 2%, #ffb8b8);
 }
 
 .main .main-content {

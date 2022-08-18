@@ -12,7 +12,7 @@
 }
 
 .header img {
-  width: 20%;
+  width: 18rem;
 }
 
 .hamburger {
@@ -21,6 +21,7 @@
   top: 2rem;
   left: 2rem;
   color: #b93d00;
+  cursor: pointer;
 }
 
 .logo-container {
@@ -78,4 +79,20 @@
   margin: 0.2rem;
   font-size: 1.5rem;
   color: #f3cb62;
+  cursor: pointer;
+}
+
+.arrowUp {
+  font-size: 3rem;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+
+.arrowUp .arrow {
+  bottom: 1rem;
+  cursor: pointer;
 }

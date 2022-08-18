@@ -1,9 +1,9 @@
-import "./Store.css";
+import "./Contact.css";
 import { Element } from "react-scroll";
 export default function Store() {
   return (
-    <Element name="store">
-      <div className="store">Store</div>
+    <Element name="contact">
+      <div className="contact">Contact</div>
     </Element>
   );
 }
