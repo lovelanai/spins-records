@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.main .left {
+  background-color: red;
+  width: 100%;
+}
+
+.main .right {
+  background-color: blue;
+  width: 100%;
+}
+
+.main .right div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .right div h1 {
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Kefa PressS";
+  src: url("//db.onlinewebfonts.com/t/b6e1e126bc19c3e9fe26136203746a13.eot");
+  src: url("//db.onlinewebfonts.com/t/b6e1e126bc19c3e9fe26136203746a13.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b6e1e126bc19c3e9fe26136203746a13.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/b6e1e126bc19c3e9fe26136203746a13.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/b6e1e126bc19c3e9fe26136203746a13.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/b6e1e126bc19c3e9fe26136203746a13.svg#Kefa PressS")
+      format("svg");
+}
+
+.layout {
+  font-family: "Kefa PressS";
+  display: flex;
+  background: linear-gradient(135deg, #00c3b8 2%, #ffc3b8);
+  height: 100vh;
+  flex-direction: column;
+}

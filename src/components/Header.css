@@ -1,0 +1,15 @@
+.header {
+  height: 6rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  height: 6rem;
+}
