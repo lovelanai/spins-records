@@ -16,9 +16,9 @@ export default function Header() {
 
   const listenScrollEvent = () => {
     if (window.scrollY < height) {
-      return setShowScroll(false), setDisplay("header");
+      return setShowScroll(false) & setDisplay("header");
     } else if (window.scrollY > height) {
-      return setShowScroll(true), setDisplay("header none");
+      return setShowScroll(true) & setDisplay("header none");
     }
   };
 

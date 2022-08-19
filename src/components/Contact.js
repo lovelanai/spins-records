@@ -1,7 +1,7 @@
 import "./Contact.css";
 import "./Mobile.css";
 import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+
 import { Element } from "react-scroll";
 export default function Store() {
   return (
