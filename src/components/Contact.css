@@ -4,5 +4,41 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aquamarine;
+  background: linear-gradient(135deg, #f3cb62 2%, #ffb8b8);
+}
+
+.contact-form {
+  height: 30rem;
+  width: 40rem;
+  background-color: rgb(255 255 255 / 46%);
+  display: flex;
+  color: #b93d00;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-form p {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.contact-form h3 {
+  margin: 0.5rem;
+}
+
+.contact-form input {
+  min-width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+.contact-form textarea {
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem;
+  min-width: 569px;
 }

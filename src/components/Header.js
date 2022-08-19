@@ -7,13 +7,15 @@ import { Link } from "react-scroll";
 export default function Header() {
   const [navbar, setNavbar] = useState();
 
-  const height = window.innerHeight - 600;
+  const [display, setDisplay] = useState("none");
+
+  const height = window.innerHeight - 100;
 
   const listenScrollEvent = () => {
     if (window.scrollY < height) {
-      return setShowScroll(false);
+      return setShowScroll(false), setDisplay("header");
     } else if (window.scrollY > height) {
-      return setShowScroll(true);
+      return setShowScroll(true), setDisplay("header none");
     }
   };
 
@@ -35,15 +37,44 @@ export default function Header() {
 
   return (
     <div>
-      <div className="header">
+      <div className="navbar-scroll">
+        <Link
+          activeClass="current"
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={300}
+        >
+          <p>About</p>
+        </Link>
+
+        <Link
+          activeClass="current"
+          to="store"
+          spy={true}
+          smooth={true}
+          duration={300}
+        >
+          <p>Store</p>
+        </Link>
+        <Link
+          activeClass="current"
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={300}
+        >
+          <p>Contact</p>
+        </Link>
+      </div>
+
+      <div className={display}>
         <div className="logo-container">
           <div className="hamburger">
             <AiOutlineMenu onClick={showNav}>hej</AiOutlineMenu>
           </div>
-
           <img alt="logo" src={logo2}></img>
         </div>
-
         {navbar ? (
           <div className="navbar show">
             <Link

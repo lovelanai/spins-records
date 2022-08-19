@@ -4,19 +4,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: cornflowerblue;
+  background: linear-gradient(135deg, #ffb8b8 2%, #f3cb62);
 }
 
+.about img {
+  transform: skew(-20deg);
+  height: 10rem;
+}
 .about div {
-  background: red;
   width: 60rem;
   height: 100vh;
   transform: skew(20deg);
-  background: red;
+  background-color: #ff9b69;
+  color: white;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
+  z-index: 1;
 }
 
 .about div h1 {
@@ -28,5 +33,9 @@
 }
 
 .about div ul:first-child {
+  width: 26rem;
+}
+
+.about div ul:last-child {
   width: 26rem;
 }

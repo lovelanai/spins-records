@@ -1,4 +1,5 @@
 import "./About.css";
+import logo from "../assets/logo.svg";
 import { Element } from "react-scroll";
 export default function Store() {
   return (
@@ -12,6 +13,7 @@ export default function Store() {
               sell everything from LP/vinyl, merch and collector items.
             </p>
           </ul>
+          <img src={logo}></img>
           <ul>
             <h1>Upcoming</h1>
             <p>

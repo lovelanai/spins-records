@@ -11,6 +11,22 @@
   z-index: 10;
 }
 
+.none {
+  animation: noheader 0.4s forwards ease-in-out;
+}
+
+@keyframes noheader {
+  0% {
+    opacity: 100%;
+    top: 0;
+  }
+
+  100% {
+    opacity: 0%;
+    top: -10rem;
+  }
+}
+
 .header img {
   width: 18rem;
 }
@@ -22,6 +38,7 @@
   left: 2rem;
   color: #b93d00;
   cursor: pointer;
+  z-index: 20;
 }
 
 .logo-container {
@@ -35,14 +52,35 @@
   justify-content: center;
 }
 
-.header .navbar {
+.navbar {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   font-size: 2rem;
   background-color: #b93d00;
-  z-index: 4;
+  color: white;
+  z-index: 3;
+}
+
+.navbar-scroll {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  background-color: #f5deb3;
+  color: #b93d00;
+  z-index: 10;
+  position: fixed;
+  opacity: 50%;
+}
+.navbar-scroll:hover {
+  opacity: 100%;
+}
+
+.navbar-scroll p {
+  cursor: pointer;
 }
 
 .show {
@@ -56,10 +94,10 @@
 @keyframes naveffect {
   0% {
     top: 3rem;
-    position: absolute;
+    position: fixed;
   }
   100% {
-    position: absolute;
+    position: fixed;
     top: 8rem;
   }
 }
@@ -90,13 +128,19 @@
   align-items: center;
   justify-content: center;
   bottom: 0;
-
+  z-index: 20;
   animation: bounce 0.8s infinite, show 1s forwards ease-in-out;
 }
 
 .arrowUp .arrow {
+  color: rgba(255, 255, 255, 0.286);
   bottom: 1rem;
   cursor: pointer;
+}
+
+.arrowUp .arrow:hover {
+  color: rgb(255, 255, 255);
+  scale: 1.2;
 }
 
 @keyframes show {

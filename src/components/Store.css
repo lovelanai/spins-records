@@ -2,7 +2,23 @@
   height: 100vh;
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  background-color: darksalmon;
+  background: url(../assets/background.png);
+  background-size: contain;
+}
+
+.store-content {
+  background-color: rgb(255 255 255 / 92%);
+  height: 30rem;
+  width: 40rem;
+  margin-left: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.store-content ul {
+  margin: 3rem;
 }
