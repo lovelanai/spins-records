@@ -10,7 +10,7 @@ import { Link } from "react-scroll";
 export default function Header() {
   const [navbar, setNavbar] = useState();
 
-  const [display, setDisplay] = useState("none");
+  const [display, setDisplay] = useState("header");
 
   const height = window.innerHeight - 100;
 
