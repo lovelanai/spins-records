@@ -7,7 +7,7 @@
 Spins Records är en mitt försök av att skapa en webshopp designmässigt.
 Vi har skapat en webbshop utifrån wireframes och mockups gjorda i photoshop.
 
-[Link to repo](https://github.com/lovelanai/https://github.com/lovelanai/spins-records)
+[Link to repo](https://github.com/lovelanai/spins-records)
 
 ## Initiate project 👨‍💻
 
