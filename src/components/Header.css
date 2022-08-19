@@ -3,7 +3,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: wheat;
+  background-color: #ff9a67;
   color: black;
   position: fixed;
   top: 0;
@@ -36,7 +36,7 @@
   position: absolute;
   top: 2rem;
   left: 2rem;
-  color: #b93d00;
+  color: white;
   cursor: pointer;
   z-index: 20;
 }
@@ -47,7 +47,7 @@
   height: 7rem;
   width: 100%;
   z-index: 10;
-  background-color: wheat;
+  background-color: #ff9a67;
   position: relative;
   justify-content: center;
 }
@@ -58,8 +58,9 @@
   flex-direction: row;
   justify-content: space-evenly;
   font-size: 2rem;
-  background-color: #b93d00;
+  background-color: #ff9a67;
   color: white;
+  border-top: 1px solid #f3cb62;
   z-index: 3;
 }
 
@@ -69,11 +70,12 @@
   flex-direction: row;
   justify-content: space-evenly;
   font-size: 1.5rem;
-  background-color: #f5deb3;
-  color: #b93d00;
+  background-color: #ff9a67;
+  color: white;
   z-index: 10;
   position: fixed;
   opacity: 50%;
+  border-bottom: 1px solid #f3cb62;
 }
 .navbar-scroll:hover {
   opacity: 100%;
@@ -116,7 +118,7 @@
 .header .navbar p {
   margin: 0.2rem;
   font-size: 1.5rem;
-  color: #f3cb62;
+  color: white;
   cursor: pointer;
 }
 

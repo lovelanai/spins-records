@@ -8,13 +8,12 @@
 }
 
 .about img {
-  transform: skew(-20deg);
   height: 10rem;
 }
 .about div {
-  width: 60rem;
+  width: 80%;
   height: 100vh;
-  transform: skew(20deg);
+
   background-color: #ff9b69;
   color: white;
   display: flex;
@@ -22,14 +21,6 @@
   flex-direction: column;
   justify-content: space-evenly;
   z-index: 1;
-}
-
-.about div h1 {
-  transform: skew(-20deg);
-}
-
-.about div p {
-  transform: skew(-20deg);
 }
 
 .about div ul:first-child {

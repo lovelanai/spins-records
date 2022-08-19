@@ -10,9 +10,9 @@
 .contact-form {
   height: 30rem;
   width: 40rem;
-  background-color: rgb(255 255 255 / 46%);
+  background-color: #ff9a6779;
   display: flex;
-  color: #b93d00;
+  color: white;
   align-items: center;
   justify-content: center;
   flex-direction: column;

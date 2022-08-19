@@ -8,7 +8,7 @@
 
 .main .main-content {
   background-image: url(../assets/jimi.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   color: white;
@@ -30,6 +30,12 @@
   display: flex;
   flex-direction: column;
 
+  /* background: #00000012; */
+  background-image: linear-gradient(
+    90deg,
+    transparent 38%,
+    rgb(255, 155, 104) 60%
+  );
   align-items: flex-end;
   padding-right: 8rem;
   margin-top: 3rem;
@@ -47,5 +53,17 @@
 @media (max-width: 1000px) {
   .main-text {
     padding-right: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-text h1 {
+    margin: 0;
+    font-size: 50px;
+  }
+
+  .main-text h2 {
+    font-size: 25px;
+    margin: 0;
   }
 }

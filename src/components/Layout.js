@@ -3,7 +3,7 @@ import Main from "./Main";
 import Store from "./Store";
 import About from "./About";
 import Contact from "./Contact";
-import { Link } from "react-scroll";
+import "./Mobile.css";
 import "./Layout.css";
 
 export default function Layout() {

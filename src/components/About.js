@@ -1,4 +1,6 @@
 import "./About.css";
+import "./Mobile.css";
+
 import logo from "../assets/logo.svg";
 import { Element } from "react-scroll";
 export default function Store() {

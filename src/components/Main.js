@@ -1,4 +1,6 @@
 import "./Main.css";
+import "./Mobile.css";
+
 import { Element } from "react-scroll";
 export default function Main() {
   return (

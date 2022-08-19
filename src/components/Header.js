@@ -1,9 +1,12 @@
 import "./Header.css";
+import "./Mobile.css";
+
 import { AiOutlineMenu } from "react-icons/ai";
 import logo2 from "../assets/logo2.svg";
 import { useState, useEffect } from "react";
 import { IoIosArrowUp } from "react-icons/io";
 import { Link } from "react-scroll";
+
 export default function Header() {
   const [navbar, setNavbar] = useState();
 
