@@ -7,8 +7,27 @@
   background: linear-gradient(135deg, #f3cb62 2%, #ffb8b8);
 }
 
+.contact .button {
+  border: none;
+  font-size: 1rem;
+  background: white;
+  color: gray;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.contact-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .contact-form {
-  height: 30rem;
+  font-family: "Kefa PressS";
+  height: 35rem;
   width: 40rem;
   background-color: #ff9a6779;
   display: flex;
@@ -16,6 +35,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 0 1rem;
 }
 
 .contact-form p {
@@ -41,4 +61,17 @@
   border: none;
   padding: 0.5rem;
   min-width: 569px;
+  margin: 0 1rem;
+}
+
+@media (max-width: 700px) {
+  .contact-form textarea {
+    min-width: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-form textarea {
+    min-width: unset;
+  }
 }

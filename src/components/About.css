@@ -30,3 +30,19 @@
 .about div ul:last-child {
   width: 26rem;
 }
+
+@media (max-width: 500px) {
+  .about div ul:first-child {
+    width: unset;
+    margin: 0.3rem;
+  }
+
+  .about div ul:last-child {
+    width: unset;
+    margin: 0.3rem;
+  }
+
+  .about img {
+    height: 6rem;
+  }
+}
