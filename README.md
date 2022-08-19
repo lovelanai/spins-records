@@ -1,6 +1,6 @@
 # ![SPINS RECORDS](src/assets/logo.svg)
 
-
+## [SPINS RECORDS hemsida](https://spinsrecords.netlify.app/)
 
 ## Projektbeskrivning 📃
 
